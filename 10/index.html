@@ -8,14 +8,28 @@
 <style>
 .menu{
     background: #EEE685;
-    font-family: "Trebuchet Ms", Helvetica, sans-serif
-    
+    font-family: "Trebuchet Ms", Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 10px;
 } 
 
+a:link{ /* nao visitado*/
+    color: #b6c941;
+    text-decoration: none;
+}
 
 
+a:visited{ /*visitados*/
+    color: #458800;
+}
 
+a:hover{ /* passar o mouse*/
+    color: #884726;        
+}
 
+a:active{ /*clicado*/
+    color: #FF1493;
+}
 
 </style>
 
@@ -24,15 +38,15 @@
 
 
 <body>
- <div class="menu">
+ <nav>
 
-    <a href="http://www.google.com">Google</a>
-    <a href="http://www.techtudo.com.br">Tech tudo</a>
-    <a href="http://www.maujor.com">Maujor</a>
+    <a href="http://www.google.com">Google</a> |
+    <a href="http://www.techtudo.com.br">Tech tudo</a> |
+    <a href="http://www.maujor.com">Maujor</a> |
 
 
 
- </div>   
+ </nav>   
 
 
 </body>
